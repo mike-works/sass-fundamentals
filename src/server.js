@@ -18,7 +18,7 @@ module.exports = function (opts) {
     /* Options */
     src:  path.join(__dirname, '..', 'exercises', opts.exercise, 'src', 'sass'),
     dest: path.join(__dirname, '..', 'exercises', opts.exercise, 'public'),
-    outputStyle: 'compressed'
+    outputStyle: 'expanded'
   });
 
   // Note: you must place sass-middleware *before* `express.static` or else it will

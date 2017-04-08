@@ -12,6 +12,11 @@
     },
     hasStyle: function(selector, styles, description) {
       var elem = document.querySelector(selector);
+      if (!elem) {
+        throw {
+          description: 'No element found: ' + selector
+        };
+      }
       var elemStyles = window.getComputedStyle(elem);
       for (let s in styles) {
         if (styles.hasOwnProperty(s) && elemStyles[s] !== styles[s]){
