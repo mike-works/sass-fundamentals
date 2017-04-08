@@ -1,0 +1,28 @@
+{
+  "name": "sasstastic",
+  "version": "0.0.0",
+  "description": "A sass workshop project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-north/sass-workship.git"
+  },
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mike-north/sass-workship/issues"
+  },
+  "homepage": "https://github.com/mike-north/sass-workship#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "express": "^4.15.2",
+    "livereload": "^0.6.2",
+    "node-sass-middleware": "^0.11.0"
+  }
+}

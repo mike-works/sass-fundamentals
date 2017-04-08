@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const program = require('./src/program');
+const server = require('./src/server');
+
+server(program);
