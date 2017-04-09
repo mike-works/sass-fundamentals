@@ -1,0 +1,27 @@
+@import '_variables';
+@import '_mixins';
+
+.btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 2px;
+  user-select: none;
+  transition: box-shadow 0.3s;
+  &:hover:not(:disabled) {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  &:disabled {
+    opacity: 0.65;
+    box-shadow: none;
+  }
+  &.btn-yellow  { @include btn-color(#990);  }
+  &.btn-blue    { @include btn-color(#33a);  }
+  &.btn-green   { @include btn-color(#3c3);  }
+  &.btn-purple  { @include btn-color(#939);  }
+  &.btn-pink    { @include btn-color($hopbush);}
+  &.btn-orange  { @include btn-color(#f93);  }
+  &.btn-brown   { @include btn-color(#952);  }
+  
+}

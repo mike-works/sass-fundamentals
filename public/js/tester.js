@@ -1,4 +1,21 @@
 (function() {
+  function printValue(txt) {
+    if (txt.indexOf('rgb(') === 0) {
+      let hex = txt
+        .replace('rgb(', '')
+        .replace(')', '').trim()
+        .split(',')
+        .map(function(c) {
+          let x = parseInt(c.trim(), 10).toString(16);
+          return x.length < 2 ? '0' + x : x;
+        })
+        .join('');
+      return '#' + hex;
+    } else {
+      return txt;
+    }
+  }
+
   const assert = {
     compare: {
       truthy() {
@@ -79,9 +96,9 @@
               }
               break;
             default:
-              if (elemStyles[s] !== styles[s]) {
+              if (elemStyles[s] !== styles[s] && styles[s] !== printValue(elemStyles[s])) {
                 throw { description,
-                  detail: 'Expected $("' + selector + '") to have value for ' + s + ':\n' + styles[s] + '.\n' + elemStyles[s] + ' was found instead'
+                  detail: 'Expected $("' + selector + '") to have value for ' + s + ':\n' + styles[s] + '.\n' + printValue(elemStyles[s]) + ' was found instead'
                 }
               }
               break;
