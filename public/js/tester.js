@@ -1,5 +1,55 @@
 (function() {
   const assert = {
+    compare: {
+      truthy() {
+        return {
+          check: function(x) {
+            return !!x
+          },
+          description: 'Should be non-empty'
+        };
+      },
+      gt(num) {
+        return {
+          check: function(x) {
+            return parseFloat(x, 10) > num;
+          },
+          description: 'Greater than ' + num
+        };
+      },
+      lt(num) {
+        return {
+          check: function(x) {
+            return parseFloat(x, 10) < num;
+          },
+          description: 'Less than ' + num
+        };
+      },
+      gte(num) {
+        return {
+          check: function(x) {
+            return parseFloat(x, 10) >= num;
+          },
+          description: 'Greater than or equal to' + num
+        };
+      },
+      lte(num) {
+        return {
+          check: function(x) {
+            return parseFloat(x, 10) <= num;
+          },
+          description: 'Less than or equal to' + num
+        };
+      },
+      eq(y) {
+        return {
+          check: function(x) {
+            return x == y;
+          },
+          description: 'Equal to ' + y
+        };
+      }
+    },
     ok: function(check, description) {
       if (!check) {
         throw { description };
@@ -19,9 +69,22 @@
       }
       var elemStyles = window.getComputedStyle(elem);
       for (let s in styles) {
-        if (styles.hasOwnProperty(s) && elemStyles[s] !== styles[s]){
-          throw { description,
-            detail: 'Expected $("' + selector + '") to have value for ' + s + ':\n' + styles[s] + '.\n' + elemStyles[s] + ' was found instead'
+        if (styles.hasOwnProperty(s)) {
+          switch (typeof styles[s]) {
+            case 'object':
+              if (!styles[s].check(elemStyles[s])) {
+                throw { description,
+                  detail: 'Expected $("' + selector + '") to meet the following condition for ' + s + ':\n' + styles[s].description + '\nFound: ' + elemStyles[s]
+                };
+              }
+              break;
+            default:
+              if (elemStyles[s] !== styles[s]) {
+                throw { description,
+                  detail: 'Expected $("' + selector + '") to have value for ' + s + ':\n' + styles[s] + '.\n' + elemStyles[s] + ' was found instead'
+                }
+              }
+              break;
           }
         }
       }

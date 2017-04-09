@@ -30,6 +30,7 @@ module.exports = function (opts) {
   app.use(sassMw);
   app.use('/', staticMw);
   app.use('/js', express.static(path.join(__dirname, '..', 'public', 'js')));
+  app.use('/css', express.static(path.join(__dirname, '..', 'public', 'css')));
 
   new Exercise(opts.exercise).load().begin();
 
