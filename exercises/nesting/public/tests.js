@@ -8,7 +8,7 @@ test('Primary button', function(assert) {
     'border-style': 'solid',
     'border-color': assert.compare.truthy(),
     'border-width': assert.compare.gt(0)
-  }, 'padding is incorrect');
+  }, 'styles are incorrect');
   
   assert.hasStyle('.btn.btn-primary', {
     'background-color': 'rgb(204, 68, 102)',
