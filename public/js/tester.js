@@ -140,6 +140,7 @@
     try {
       cb(assert);
     } catch(e) {
+      console.error(e);
       onFail(Object.assign(e, { name }));
     }
   };

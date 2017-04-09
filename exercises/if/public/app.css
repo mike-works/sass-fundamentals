@@ -1,0 +1,122 @@
+.btn {
+  padding: 2px 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.btn:hover:not(:disabled) {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.btn:disabled {
+  color: #666;
+  opacity: 0.5;
+}
+
+.theme-1 .btn-primary {
+  background-color: #9f9;
+  border-color: #33ff33;
+}
+
+.theme-1 .btn-primary:hover:not(:disabled) {
+  background-color: #ccffcc;
+}
+
+.theme-1 .btn-secondary {
+  background-color: #3377ff;
+  border-color: #0044cc;
+}
+
+.theme-1 .btn-secondary:hover:not(:disabled) {
+  background-color: #6699ff;
+}
+
+.theme-1 .btn-other {
+  background-color: #ff7733;
+  border-color: #cc4400;
+}
+
+.theme-1 .btn-other:hover:not(:disabled) {
+  background-color: #ff9966;
+}
+
+.theme-1 .btn-other2 {
+  background-color: #ff33ff;
+  border-color: #cc00cc;
+}
+
+.theme-1 .btn-other2:hover:not(:disabled) {
+  background-color: #ff66ff;
+}
+
+.theme-2 .btn-primary {
+  background-color: #99f;
+  border-color: #3333ff;
+}
+
+.theme-2 .btn-primary:hover:not(:disabled) {
+  background-color: #ccccff;
+}
+
+.theme-2 .btn-secondary {
+  background-color: #ff6666;
+  border-color: red;
+}
+
+.theme-2 .btn-secondary:hover:not(:disabled) {
+  background-color: #ff9999;
+}
+
+.theme-2 .btn-other {
+  background-color: #66ff66;
+  border-color: lime;
+}
+
+.theme-2 .btn-other:hover:not(:disabled) {
+  background-color: #99ff99;
+}
+
+.theme-2 .btn-other2 {
+  background-color: #ffff66;
+  border-color: yellow;
+}
+
+.theme-2 .btn-other2:hover:not(:disabled) {
+  background-color: #ffff99;
+}
+
+.theme-3 .btn-primary {
+  background-color: #a6a;
+  border-color: #6d3d6d;
+}
+
+.theme-3 .btn-primary:hover:not(:disabled) {
+  background-color: #cf74cf;
+}
+
+.theme-3 .btn-secondary {
+  background-color: #6d6d3d;
+  border-color: #2c2c18;
+}
+
+.theme-3 .btn-secondary:hover:not(:disabled) {
+  background-color: #a4a439;
+}
+
+.theme-3 .btn-other {
+  background-color: #3d6d6d;
+  border-color: #182c2c;
+}
+
+.theme-3 .btn-other:hover:not(:disabled) {
+  background-color: #39a4a4;
+}
+
+.theme-3 .btn-other2 {
+  background-color: #3d6d3d;
+  border-color: #182c18;
+}
+
+.theme-3 .btn-other2:hover:not(:disabled) {
+  background-color: #39a439;
+}
