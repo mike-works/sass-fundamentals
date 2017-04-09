@@ -1,0 +1,31 @@
+@import '_variables';
+@import '_mixins';
+
+.btn {
+  padding: 2px 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  &:hover:not(:disabled) {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+  &:disabled {
+    color: #666;
+    opacity: 0.5;
+  }
+}
+
+.theme-1 {
+  @include theme(#399, 100deg);
+}
+
+.theme-2 {
+  @include theme(#609, $darkenpct: 10%);
+}
+
+.theme-3 {
+  @include theme($hopbush);
+}
+.foo {
+  color: desaturate(#63f, 30%); // #30c
+}
