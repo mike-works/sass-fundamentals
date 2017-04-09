@@ -1,0 +1,4 @@
+{
+  "title": "Writing custom functions",
+  "instructions": "Take this solution to a previous exercise, and update it to base the logic for black/white button text to use contrast instead of brightness" 
+}

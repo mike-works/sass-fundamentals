@@ -1,0 +1,50 @@
+@import "_functions";
+
+@mixin theme($primary-color, $rotate: 120deg, $darkenpct: 20%) {
+  .btn-primary {
+    @include button-base($primary-color);
+  }
+  .btn-secondary {
+    @include button-base(
+      darken(
+        adjust-hue($primary-color, $rotate),
+      $darkenpct)
+    );
+  }
+  .btn-other {
+    @include button-base(
+      darken(
+        adjust-hue($primary-color, 360deg - $rotate),
+      $darkenpct)
+    );
+  }
+  .btn-other2 {
+    @include button-base(
+      darken(
+        adjust-hue($primary-color, 180deg),
+      $darkenpct)
+    );
+  }
+}
+
+@function luminance($color) {
+  /* REPLACE THIS WITH YOUR REAL FUNCTION */
+  @return 0.5;
+}
+
+$white_luminance: luminance(white);
+
+@mixin button-base($color) {
+  background-color: $color;
+  border-color: darken($color, 20%);
+  /* luminance(#{$color}): #{luminance($color)}
+   * luminance(white): #{luminance(white)}
+   */
+  @if abs(luminance($color) - $white_luminance) > 0.7 {
+  // @if lightness($color) < 70 {
+    color: white;
+  }
+  &:hover:not(:disabled) {
+    background-color: lighten(saturate($color, 20%), 10%);
+  }
+}
