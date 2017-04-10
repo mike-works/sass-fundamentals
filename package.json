@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-north/sass-workship.git"
+    "url": "git+https://github.com/mike-north/sass-workshop.git"
   },
   "keywords": [
     "sass",
@@ -15,9 +15,9 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/mike-north/sass-workship/issues"
+    "url": "https://github.com/mike-north/sass-workshop/issues"
   },
-  "homepage": "https://github.com/mike-north/sass-workship#readme",
+  "homepage": "https://github.com/mike-north/sass-workshop#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
