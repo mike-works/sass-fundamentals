@@ -1,5 +1,13 @@
-body {
-    h1 {
-    color: #c69;
-  }
+$w: 2px;
+
+@function double($x) {
+  @return 2 * $x;
+}
+
+.thin-border {
+  border-width: $w;
+}
+
+.thick-border {
+  border-width: double($w);
 }
