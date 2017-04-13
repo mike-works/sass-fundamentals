@@ -1,0 +1,18 @@
+$dimensions: ('m': 'margin', 'p': 'padding');
+$directions: (t: 'top', b: 'bottom', l: 'left', r: 'right');
+$list: ('a' 'b' 'c');
+
+// Iterating over dimensions
+@each $dim in $dimensions {
+  // $dim is ('m' 'margin')
+  // Iterating over directions
+  @each $dir in $directions {
+    // $dir is ('d' 'down')
+    @for $i from 1 through 5 {
+      $size: $i * 5;
+      .#{nth($dim, 1)}-#{nth($dir, 1)}-#{$size} {
+        #{nth($dim, 2)}-#{nth($dir, 2)}: #{$size}px;
+      }
+    }
+  }
+}
