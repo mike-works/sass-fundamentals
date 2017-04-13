@@ -5,9 +5,27 @@ body {
 }
 
 .btn {
-  padding: 2px 14px;
+  padding: 2px 10px;
   border-style: solid;
   border-width: 1px;
   line-height: 20px;
   border-radius: 2px;
+  &.btn--mode-primary {
+    background: #c46;
+    color: #fff;
+  }
+  &.btn--mode-secondary {
+    background: #edbcc8;
+    color: #000;
+  }
+  &:disabled {
+    opacity: 0.5;
+    .btn__price {
+      background: #aaa; 
+    }
+  }
+  &__price {
+    background: #008000;
+    padding: 1px 3px;
+  }
 }
