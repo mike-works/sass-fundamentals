@@ -30,7 +30,7 @@ test('Secondary button', function(assert) {
   }, 'padding is incorrect');
   
   assert.hasStyle('.btn.btn-secondary', {
-    'background-color': 'rgb(153, 128, 153)',
+    'background-color': '#d2e1dd',
     'color': 'rgb(0, 0, 0)',
     'opacity': '1'
   }, 'colors for enabled state are incorrect');
