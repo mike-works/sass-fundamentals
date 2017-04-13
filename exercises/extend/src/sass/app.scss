@@ -1,13 +1,20 @@
-$w: 2px;
-
-@function double($x) {
-  @return 2 * $x;
+%btn {
+  padding: 2px 10px;
+  border-radius: 2px;
+  border-style: solid;
+  &:disabled {
+    opacity: 0.5;
+  }
 }
 
-.thin-border {
-  border-width: $w;
+.btn-primary {
+  @extend %btn;
+  background: #c46;
+  color: white;
 }
 
-.thick-border {
-  border-width: double($w);
+.btn-secondary {
+  @extend %btn;
+  background: rgb(237, 188, 200);
+  color: black;
 }
