@@ -11,7 +11,8 @@ test('Primary button', function(assert) {
   }, 'styles are incorrect');
   
   assert.hasStyle('.btn.btn-primary', {
-    'background-color': 'rgb(204, 102, 153)',
+    'background-color': '#cc6699',
+    'border-color': '#998099',
     'color': 'rgb(255, 255, 255)',
     'opacity': '1'
   }, 'colors for enabled state are incorrect');
@@ -31,6 +32,7 @@ test('Secondary button', function(assert) {
   
   assert.hasStyle('.btn.btn-secondary', {
     'background-color': '#d2e1dd',
+    'border-color': '#669999',
     'color': 'rgb(0, 0, 0)',
     'opacity': '1'
   }, 'colors for enabled state are incorrect');
