@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A sass workshop project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ci": "echo ok"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mike-north/sass-workshop.git"

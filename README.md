@@ -5,11 +5,24 @@
 </p>
 <p align='center'>
   <a href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca" target='_blank'>
-    <img src='https://cloud.githubusercontent.com/assets/558005/26024624/70ade15a-37d5-11e7-9e65-aa7b696cbaa0.png' />
+    <img height=150 src='https://cloud.githubusercontent.com/assets/558005/26024624/70ade15a-37d5-11e7-9e65-aa7b696cbaa0.png' />
   </a>
 </p>
 
-This is the example project used for the [Mike.Works](https://mike.works) [Sass Fundamentals](https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca) course.
+<p align='center'>
+  <a href="https://travis-ci.org/mike-north/sass-workshop" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-north/sass-workshop.svg?branch=solution"/>
+  </a>
+  <a href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca" title="Sass Fundamentals">
+    <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
+  </a>
+  <a href="https://bit.ly/sass-fundamentals" title="Slides">
+    <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
+  </a>
+</p>
+<p align='center'>
+This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Sass Fundamentals" href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca">Sass Fundamentals</a> course.
+</p>
 
 # What are the pieces?
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
