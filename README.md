@@ -19,12 +19,17 @@
   <a href="https://bit.ly/sass-fundamentals" title="Slides">
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
+  <a title="Greenkeeper badge" href="https://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/mike-north/sass-workshop.svg"/>
+  </a>
 </p>
 <p align='center'>
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Sass Fundamentals" href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca">Sass Fundamentals</a> course.
 </p>
 
 # What are the pieces?
+
+
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
 * [express](http://expressjs.com/) for serving HTML and CSS (compiled from Sass)
 * [commander](https://github.com/tj/commander.js) as a foundation for a CLI to run exerises
