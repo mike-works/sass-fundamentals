@@ -25,6 +25,8 @@ This is the  project used for the <a title="Mike.Works" href="https://mike.works
 </p>
 
 # What are the pieces?
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/sass-workshop.svg)](https://greenkeeper.io/)
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
 * [express](http://expressjs.com/) for serving HTML and CSS (compiled from Sass)
 * [commander](https://github.com/tj/commander.js) as a foundation for a CLI to run exerises
