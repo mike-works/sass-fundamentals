@@ -10,30 +10,32 @@
 </p>
 
 <p align='center'>
-  <a href="https://travis-ci.org/mike-north/sass-workshop" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/sass-workshop.svg?branch=solution"/>
+  <a href="https://travis-ci.org/mike-north/sass-fundamentals" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-north/sass-fundamentals.svg?branch=solution"/>
   </a>
   <a href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca" title="Sass Fundamentals">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
   </a>
-  <a href="https://bit.ly/sass-fundamentals" title="Slides">
+  <a href="https://docs.mike.works/sass-fundamentals" title="Slides">
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
   <a title="Greenkeeper badge" href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/mike-north/sass-workshop.svg"/>
+    <img src="https://badges.greenkeeper.io/mike-north/sass-fundamentals.svg"/>
   </a>
 </p>
 <p align='center'>
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Sass Fundamentals" href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca">Sass Fundamentals</a> course.
 </p>
 
-# What are the pieces?
+# Are there any documents that go along with this?
+Yes! **[Here are the slides](https://docs.mike.works/sass-fundamentals)**, and **[here's a course outline](https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca)**.
 
+# What are the pieces?
 
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
 * [express](http://expressjs.com/) for serving HTML and CSS (compiled from Sass)
 * [commander](https://github.com/tj/commander.js) as a foundation for a CLI to run exerises
-* [A little CSS testing framework](https://github.com/mike-north/sass-workshop/blob/master/public/js/tester.js) for asserting that exercise goals have been reached!
+* [A little CSS testing framework](https://github.com/mike-north/sass-fundamentals/blob/master/public/js/tester.js) for asserting that exercise goals have been reached!
 
 # Getting Set Up
 
@@ -60,8 +62,8 @@ Particularly if you’ve never tried it before, you should install [Microsoft Vi
 ### Check out and setup the project for this workshop
 
 ```
-git clone git@github.com:mike-north/sass-workshop.git
-cd sass-workshop
+git clone git@github.com:mike-north/sass-fundamentals.git
+cd sass-fundamentals
 npm install
 ```
 
