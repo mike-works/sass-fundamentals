@@ -51,11 +51,9 @@ let branches = [
   'femasters/6-begin', 'femasters/6-complete',
   'femasters/7-begin', 'femasters/7-complete',
   'femasters/8-begin', 'femasters/8-complete',
-  'femasters/9-begin', 'femasters/9-complete', 'femasters/9-enhanced',
+  'femasters/9-begin', 'femasters/9-complete',
   'femasters/10-begin', 'femasters/10-complete',
   'femasters/11-begin', 'femasters/11-complete',
-  'femasters/12-begin', 'femasters/12-complete',
-  'femasters/13-begin', 'femasters/13-complete',
   'femasters/final'
 ];
 
