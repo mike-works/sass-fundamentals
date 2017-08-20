@@ -79,7 +79,7 @@ Use the `run` command to launch an exercise
 While the general license for this project is the BSD 3-clause, the exercises
 themselves are proprietary and are licensed on a per-individual basis, usually
 as a result of purchasing a ticket to a public workshop, being a participant
-in a private training, or having a Front End Masters membership.
+in a private training, being a current LinkedIn engineering employee or having a Front End Masters membership.
 
 Here are some guidelines for things that are **OK** and **NOT OK**, based on our
 understanding of how these licenses work:
