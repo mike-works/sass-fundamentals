@@ -1,19 +1,20 @@
+@import "variables";
 body {
     h1 {
-    color: #c69;
+    color: #000;
   }
 }
 .btn {
   padding: 2px 10px;
   border-radius: 2px;
   &.btn-primary {
-    border: 1px solid rebeccapurple;
-    background-color: lawngreen;
+    border: 1px solid $venus;
+    background-color: $hopbush;
     color: #fff;
   }
   &.btn-secondary {
-    border: 1px solid cadetblue;
-    background-color: peru;
+    border: 1px solid $patina;
+    background-color: $nebula;
     color: #000;
   }
   &:disabled {
