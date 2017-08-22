@@ -1,0 +1,25 @@
+// t -> "top"
+// b -> "bottom"
+
+$directions: (
+  t: 'top',
+  b: 'bottom',
+  l: 'left',
+  r: 'right'
+);
+$properties: (
+  m: 'margin',
+  p: 'padding'
+);
+
+$step-size: 5;
+
+@each $p-letter, $p-word in $properties {
+  @each $d-letter, $d-word in $directions { 
+    @for $i from 1 to 7 {
+      .#{$p-letter}-#{$d-letter}-#{$i * $step-size} {
+        #{$p-word}-#{$d-word}: "#{$step-size}px" * $i;
+      }
+    }
+  }
+}
