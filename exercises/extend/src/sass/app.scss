@@ -1,5 +1,20 @@
-body {
-    h1 {
-    color: #c69;
+%btn {
+  padding: 2px 10px;
+  border-radius: 2px;
+  border-style: solid;
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.btn {
+  &.btn-primary {
+    @extend %btn;
+    color: white;
+    background-color: rgb(204, 68, 102);
+  }
+  &.btn-secondary {
+    @extend %btn;
+    background-color: rgb(237, 188, 200);
   }
 }
