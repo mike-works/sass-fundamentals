@@ -10,8 +10,8 @@
 </p>
 
 <p align='center'>
-  <a href="https://travis-ci.org/mike-north/sass-fundamentals" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/sass-fundamentals.svg?branch=solution"/>
+  <a href="https://travis-ci.org/mike-works/sass-fundamentals" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-works/sass-fundamentals.svg?branch=solution"/>
   </a>
   <a href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca" title="Sass Fundamentals">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
@@ -20,7 +20,7 @@
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
   <a title="Greenkeeper badge" href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/mike-north/sass-fundamentals.svg"/>
+    <img src="https://badges.greenkeeper.io/mike-works/sass-fundamentals.svg"/>
   </a>
 </p>
 <p align='center'>
@@ -35,7 +35,7 @@ Yes! **[Here are the slides](https://docs.mike.works/sass-fundamentals)**, and *
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
 * [express](http://expressjs.com/) for serving HTML and CSS (compiled from Sass)
 * [commander](https://github.com/tj/commander.js) as a foundation for a CLI to run exerises
-* [A little CSS testing framework](https://github.com/mike-north/sass-fundamentals/blob/master/public/js/tester.js) for asserting that exercise goals have been reached!
+* [A little CSS testing framework](https://github.com/mike-works/sass-fundamentals/blob/master/public/js/tester.js) for asserting that exercise goals have been reached!
 
 # Getting Set Up
 
@@ -62,7 +62,7 @@ Particularly if you’ve never tried it before, you should install [Microsoft Vi
 ### Check out and setup the project for this workshop
 
 ```
-git clone git@github.com:mike-north/sass-fundamentals.git
+git clone git@github.com:mike-works/sass-fundamentals.git
 cd sass-fundamentals
 npm install
 ```
@@ -101,6 +101,6 @@ exercises contained within this project to run your own workshops
 
 # Copyright
 
-&copy; 2017 [Mike.Works](https://mike.works), All Rights Reserved
+&copy; 2018 [Mike.Works](https://mike.works), All Rights Reserved
 
 ###### This material may not be used for workshops, training, or any other form of instructing or teaching developers, without express written consent

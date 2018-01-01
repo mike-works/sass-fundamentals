@@ -6,7 +6,7 @@
   "scripts": {
     "test:ci": "echo ok"
   },
-  "repository": "https://github.com/mike-north/sass-fundamentals.git",
+  "repository": "https://github.com/mike-works/sass-fundamentals.git",
   "keywords": [
     "sass",
     "css"
@@ -14,9 +14,9 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/mike-north/sass-fundamentals/issues"
+    "url": "https://github.com/mike-works/sass-fundamentals/issues"
   },
-  "homepage": "https://github.com/mike-north/sass-fundamentals#readme",
+  "homepage": "https://github.com/mike-works/sass-fundamentals#readme",
   "dependencies": {
     "chalk": "^2.3.0",
     "commander": "^2.9.0",
