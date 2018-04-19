@@ -27,8 +27,9 @@
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Sass Fundamentals" href="https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca">Sass Fundamentals</a> course.
 </p>
 
-# Are there any documents that go along with this?
-Yes! **[Here are the slides](https://docs.mike.works/sass-fundamentals)**, and **[here's a course outline](https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca)**.
+# Sass Fundamentals: Course outline and Slides
+* [View course outline here](https://mike.works/course/sass-fundamentals-5438fec/stage/sass-fundamentals-ca61dca)
+* [View slides here](https://docs.mike.works/sass-fundamentals)
 
 # What are the pieces?
 
