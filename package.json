@@ -1,10 +1,12 @@
 {
-  "name": "sasstastic",
-  "version": "0.0.0",
+  "name": "@mike-works/sass-fundamentals",
+  "version": "0.0.0-development",
   "description": "A sass workshop project",
   "main": "index.js",
   "scripts": {
-    "test:ci": "echo ok"
+    "test:ci": "echo ok",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": "https://github.com/mike-works/sass-fundamentals.git",
   "keywords": [
@@ -18,13 +20,15 @@
   },
   "homepage": "https://github.com/mike-works/sass-fundamentals#readme",
   "dependencies": {
-    "chalk": "^2.3.0",
-    "commander": "^2.9.0",
-    "express": "^4.16.2",
-    "livereload": "^0.6.3",
-    "node-sass-middleware": "^0.11.0"
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "express": "^4.16.3",
+    "livereload": "^0.7.0"
   },
   "devDependencies": {
-    "greenkeeper-lockfile": "^1.12.0"
+    "@mike-works/workshop-semantic-release-config": "^1.0.0",
+    "node-sass-middleware": "^0.11.0",
+    "travis-deploy-once": "^5.0.2",
+    "semantic-release": "^15.9.9"
   }
 }

@@ -1,11 +1,31 @@
+---
 language: node_js
 node_js:
-- 'stable'
+  - "8"
 
-caches: yarn
+sudo: required
+dist: trusty
+
+addons:
+  chrome: stable
+
+cache:
+  directories:
+    - $HOME/.npm
+before_install:
+  - npm config set spin false
+
+before_script:
+  - sudo chmod 4755 /opt/google/chrome/chrome-sandbox
+  - sudo chown root /opt/google/chrome/chrome-sandbox
+
+install:
+  - yarn install --non-interactive
 
 script: npm run test:ci
 
-before_install: yarn global add greenkeeper-lockfile@1
-before_script: greenkeeper-lockfile-update
-after_script: greenkeeper-lockfile-upload
+after_success:
+  - npm run travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
