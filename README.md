@@ -11,7 +11,7 @@
 
 <p align='center'>
   <a href="https://travis-ci.org/mike-works/sass-fundamentals" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-works/sass-fundamentals.svg?branch=solution"/>
+    <img title="Build Status" src="https://travis-ci.org/mike-works/sass-fundamentals.svg"/>
   </a>
   <a href="https://github.com/mike-works/sass-fundamentals/releases" title="Version">
     <img title="Version" src="https://img.shields.io/github/tag/mike-works/sass-fundamentals.svg" />
