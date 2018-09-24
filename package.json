@@ -28,7 +28,7 @@
   "devDependencies": {
     "@mike-works/workshop-semantic-release-config": "^1.0.0",
     "node-sass-middleware": "^0.11.0",
-    "semantic-release": "^15.9.15",
+    "semantic-release": "^15.9.16",
     "travis-deploy-once": "^5.0.8"
   },
   "release": {
