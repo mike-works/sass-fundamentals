@@ -1,3 +1,38 @@
 @mixin range-thumb() {
- 
+    &::-moz-range-thumb {
+        @content;
+    }
+
+    &::-ms-thumb {
+        @content;
+    }
+}
+
+@mixin range-track() {
+
+    &::-webkit-slider-runnable-track {
+        @content;
+    }
+
+    &::-moz-range-track {
+        @content;
+    }
+}
+
+@mixin fill-track() {
+    &::-ms-fill-lower {
+        @content;
+    }
+
+    &::-ms-fill-upper {
+        @content;
+    }
+
+    &:focus::-ms-fill-lower {
+        background: #3071a9;
+    }
+
+    &:focus::-ms-fill-upper {
+        background: #367ebd;
+    }
 }

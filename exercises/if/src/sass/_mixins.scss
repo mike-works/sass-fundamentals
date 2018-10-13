@@ -2,32 +2,31 @@
   .btn-primary {
     @include button-base($primary-color);
   }
+
   .btn-secondary {
-    @include button-base(
-      darken(
-        adjust-hue($primary-color, $rotate),
-      $darkenpct)
-    );
+    @include button-base(darken(adjust-hue($primary-color, $rotate),
+    $darkenpct));
   }
+
   .btn-other {
-    @include button-base(
-      darken(
-        adjust-hue($primary-color, 360deg - $rotate),
-      $darkenpct)
-    );
+    @include button-base(darken(adjust-hue($primary-color, 360deg - $rotate),
+    $darkenpct));
   }
+
   .btn-other2 {
-    @include button-base(
-      darken(
-        adjust-hue($primary-color, 180deg),
-      $darkenpct)
-    );
+    @include button-base(darken(adjust-hue($primary-color, 180deg),
+    $darkenpct));
   }
 }
 
 @mixin button-base($color) {
   background-color: $color;
   border-color: darken($color, 20%);
+
+  @if lightness($color) <=75% {
+    color: $white;
+  }
+
   &:hover:not(:disabled) {
     background-color: lighten(saturate($color, 20%), 10%);
   }
