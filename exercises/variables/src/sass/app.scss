@@ -1,22 +1,28 @@
+@import "_variables";
+
 body {
-    h1 {
-    color: #c69;
+  h1 {
+    color: $hopbush;
   }
 }
+
 .btn {
   padding: 2px 10px;
   border-radius: 2px;
+
   &.btn-primary {
-    border: 1px solid rebeccapurple;
-    background-color: lawngreen;
-    color: #fff;
+    border: 1px solid $venus;
+    background-color: $hopbush;
+    color: $white;
   }
+
   &.btn-secondary {
-    border: 1px solid cadetblue;
-    background-color: peru;
-    color: #000;
+    border: 1px solid $patina;
+    background-color: $nebula;
+    color: $black;
   }
+
   &:disabled {
-    opacity: 0.5;
+    opacity: $btn-disabled-opacity;
   }
 }

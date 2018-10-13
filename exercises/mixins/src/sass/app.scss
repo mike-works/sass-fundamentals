@@ -9,6 +9,7 @@
   border-radius: 2px;
   user-select: none;
   transition: box-shadow 0.3s;
+  color: $white;
   &:hover:not(:disabled) {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   }
@@ -23,5 +24,5 @@
   &.btn-pink    { @include btn-color($hopbush);}
   &.btn-orange  { @include btn-color(#f93);  }
   &.btn-brown   { @include btn-color(#952);  }
-  
+
 }
