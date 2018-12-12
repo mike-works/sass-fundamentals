@@ -30,7 +30,7 @@
     "@mike-works/workshop-semantic-release-config": "1.0.0",
     "node-sass-middleware": "0.11.0",
     "semantic-release": "15.12.5",
-    "travis-deploy-once": "5.0.9"
+    "travis-deploy-once": "5.0.10"
   },
   "release": {
     "extends": "@mike-works/workshop-semantic-release-config"
