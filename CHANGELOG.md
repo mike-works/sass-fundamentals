@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.2...v1.0.3) (2019-01-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chalk to v2.4.2 ([2816bc0](https://github.com/mike-works/sass-fundamentals.git/commit/2816bc0))
+
 ## [1.0.2](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.1...v1.0.2) (2018-11-13)
 
 
