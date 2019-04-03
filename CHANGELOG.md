@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.3...v1.0.4) (2019-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v2.20.0 ([b19c882](https://github.com/mike-works/sass-fundamentals.git/commit/b19c882))
+
 ## [1.0.3](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.2...v1.0.3) (2019-01-05)
 
 
