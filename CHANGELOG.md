@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.4...v1.0.5) (2019-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency express to v4.17.0 ([01a8f78](https://github.com/mike-works/sass-fundamentals.git/commit/01a8f78))
+
 ## [1.0.4](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.3...v1.0.4) (2019-04-03)
 
 
