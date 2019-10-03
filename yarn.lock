@@ -3483,10 +3483,10 @@ libnpx@^10.2.0:
     y18n "^4.0.0"
     yargs "^11.0.0"
 
-livereload@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/livereload/-/livereload-0.8.1.tgz#b5fea982bf2ae276aed1bf434056c9fa83a97738"
-  integrity sha512-66bTTHqTLk3lFTosEaRej+Xgnw7uctIej2AeK9HxgclsmNBXJqP3jjFzWejUPG4uhc1jbOT/PJ4ddB/7vAiKgA==
+livereload@0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/livereload/-/livereload-0.8.2.tgz#0ebb756cd5150bc956e33110b884bc2d7d87b723"
+  integrity sha512-8wCvhiCL4cGVoT3U5xoe+UjpiiVZLrlOvr6dbhb1VlyC5QarhrlyRRt4z7EMGO4KSgXj+tKF/dr284F28/wI+g==
   dependencies:
     chokidar "^2.1.5"
     opts ">= 1.2.0"
