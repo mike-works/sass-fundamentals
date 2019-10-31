@@ -27,9 +27,21 @@
   }
 }
 
+@function linearRgb($c) {
+  @if $c <= 0.04045 {
+    @return $c / 12.92;
+  }
+  @else {
+    @return pow((($c + 0.055) / 1.055), 2.4);
+  }
+}
+
 @function luminance($color) {
-  /* REPLACE THIS WITH YOUR REAL FUNCTION */
-  @return 0.5;
+  $r: linearRgb(red($color)/255);
+  $g: linearRgb(green($color)/255);
+  $b: linearRgb(blue($color)/255);
+  
+  @return 0.2126*$r + 0.7152*$g + 0.0722*$b;
 }
 
 $white_luminance: luminance(white);
