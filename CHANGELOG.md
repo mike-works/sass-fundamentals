@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.12...v1.0.13) (2020-02-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency livereload to v0.9.1 ([07d22e8](https://github.com/mike-works/sass-fundamentals.git/commit/07d22e8))
+
 ## [1.0.12](https://github.com/mike-works/sass-fundamentals.git/compare/v1.0.11...v1.0.12) (2020-01-30)
 
 
