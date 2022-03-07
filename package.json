@@ -22,7 +22,7 @@
   "dependencies": {
     "chalk": "2.4.2",
     "commander": "2.20.3",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "livereload": "0.9.3"
   },
   "devDependencies": {
