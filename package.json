@@ -28,7 +28,7 @@
   "devDependencies": {
     "@mike-works/js-lib-renovate-config": "2.0.0",
     "@mike-works/workshop-semantic-release-config": "1.0.0",
-    "node-sass-middleware": "0.11.0",
+    "node-sass-middleware": "1.0.1",
     "semantic-release": "15.14.0",
     "travis-deploy-once": "5.0.11"
   },
