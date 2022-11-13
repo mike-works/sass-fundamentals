@@ -12,16 +12,14 @@ body {
   &.btn-primary {
     background-color: #c46;
     color: #fff;
-    &:disabled {
-      opacity: 0.5;
-    }
   }
 
   &.btn-secondary {
     background-color: #edbcc8;
     color: #000;
-    &:disabled {
-      opacity: 0.5;
-    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
   }
 }
