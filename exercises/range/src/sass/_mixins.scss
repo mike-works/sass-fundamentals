@@ -1,3 +1,67 @@
+@mixin range-track-extra() {
+  box-shadow: 1px 1px 1px $black, 0px 0px 1px $cod-gray;
+  background: $darkblue;
+  border-radius: 1.3px;
+  border: 0.2px solid $cod-gray;
+}
+
+
+@mixin range-track() {
+  &::-webkit-slider-runnable-track {
+    @content;
+    @include range-track-extra();
+  }
+
+  &:focus::-webkit-slider-runnable-track {
+    background: $lightblue;
+  }
+
+  &::-moz-range-track {
+    @content;
+    @include range-track-extra();
+  }
+
+  &::-ms-track {
+    @content;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+  }
+}
+
+
 @mixin range-thumb() {
- 
+  &::-webkit-slider-thumb {
+    @content;
+    -webkit-appearance: none;
+    margin-top: -14px;
+  }
+
+  &::-moz-range-thumb {
+    @content;
+  }
+
+  &::-ms-thumb {
+    @content;
+  }
+}
+
+@mixin fill() {
+
+  &::-ms-fill-lower {
+    @content;
+  }
+
+  &::-ms-fill-upper {
+    @content;
+  }
+
+  &:focus::-ms-fill-lower {
+    background: $lightblue;
+  }
+
+  &:focus::-ms-fill-upper {
+    background: $lightblue;
+  }
 }
