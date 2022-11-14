@@ -68,6 +68,8 @@ Use the `run` command to launch an exercise
 
 ```sh
 ./run --exercise <exercise name>
+
+`node run -e <exercise>` for windows users
 ```
 
 # License
