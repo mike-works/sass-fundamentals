@@ -59,6 +59,8 @@ Particularly if you’ve never tried it before, you should install [Microsoft Vi
 ```
 git clone git@github.com:mike-works/sass-fundamentals.git
 cd sass-fundamentals
+nvm install 14.17.6
+nvm use 14.17.6
 npm install
 ```
 
