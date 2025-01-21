@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mike-works/sass-fundamentals#readme",
   "dependencies": {
     "chalk": "2.4.2",
-    "commander": "2.20.3",
+    "commander": "13.1.0",
     "express": "4.21.2",
     "livereload": "0.9.3"
   },
