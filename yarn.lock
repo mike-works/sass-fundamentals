@@ -3669,18 +3669,18 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-livereload-js@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/livereload-js/-/livereload-js-3.3.2.tgz#c88b009c6e466b15b91faa26fd7c99d620e12651"
-  integrity sha512-w677WnINxFkuixAoUEXOStewzLYGI76XVag+0JWMMEyjJQKs0ibWZMxkTlB96Lm3EjZ7IeOxVziBEbtxVQqQZA==
+livereload-js@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/livereload-js/-/livereload-js-4.0.2.tgz#8d5640ff2caf9c961992f640ddeb5fdef8bfff84"
+  integrity sha512-Fy7VwgQNiOkynYyNBTo3v9hQUhcW5pFAheJN148+DTgpShjsy/22pLHKKwDK5v0kOsZsJBK+6q1PMgLvRmrwFQ==
 
-livereload@0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/livereload/-/livereload-0.9.3.tgz#a714816375ed52471408bede8b49b2ee6a0c55b1"
-  integrity sha512-q7Z71n3i4X0R9xthAryBdNGVGAO2R5X+/xXpmKeuPMrteg+W2U8VusTKV3YiJbXZwKsOlFlHe+go6uSNjfxrZw==
+livereload@0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/livereload/-/livereload-0.10.1.tgz#0179d1d532497cbd6d6288445970f1060f22e12e"
+  integrity sha512-cryRMRXyAq8TJuib9iWRl32Dl4LBlQNCkMFgdnPnFZCGkWCnLYebtrwNA1qT/oCB9nX7oM9VD4Kjukz3YXL8Sw==
   dependencies:
     chokidar "^3.5.0"
-    livereload-js "^3.3.1"
+    livereload-js "^4.0.2"
     opts ">= 1.2.0"
     ws "^7.4.3"
 
