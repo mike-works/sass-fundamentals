@@ -23,7 +23,7 @@
     "chalk": "2.4.2",
     "commander": "2.20.3",
     "express": "4.21.2",
-    "livereload": "0.10.2"
+    "livereload": "0.10.3"
   },
   "devDependencies": {
     "@mike-works/js-lib-renovate-config": "2.0.0",
